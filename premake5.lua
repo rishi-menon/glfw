@@ -70,6 +70,9 @@ project "GLFW"
             "_GLFW_COCOA"
         } 
 
+    filter "system:windows"
+        systemversion "latest"
+
     filter "configurations:Debug"
         runtime "Debug"
         symbols "on"
